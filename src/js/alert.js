@@ -8,13 +8,3 @@ function sucesso() {
     });
 }
 
-function erro(){
-
-    Swal.fire({
-        title: 'Erro!',
-        text: 'Senhas diferentes!',
-        icon: 'error',
-        confirmButtonText: 'Tentar novamente'
-    });
-
-}
